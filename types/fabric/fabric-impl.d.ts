@@ -4915,6 +4915,14 @@ interface IAllFilters {
 		 */
 		fromObject(object: any): IBlendImageFilter
 	};
+    Brownie: {
+		new(options?: any): IBrownieFilter;
+		/**
+		 * Returns filter instance from an object representation
+		 * @param object Object to create an instance from
+		 */
+		fromObject(object: any): IBrownieFilter
+	};
 	Brightness: {
 		new(options?: {
 			/**
@@ -4994,6 +5002,14 @@ interface IAllFilters {
 		 * @param object Object to create an instance from
 		 */
 		fromObject(object: any): IInvertFilter
+	};
+    Kodachrome: {
+		new(options?: any): IKodachromeFilter;
+		/**
+		 * Returns filter instance from an object representation
+		 * @param object Object to create an instance from
+		 */
+		fromObject(object: any): IKodachromeFilter
 	};
 	Mask: {
 		new(options?: {
@@ -5099,6 +5115,14 @@ interface IAllFilters {
 		 */
 		fromObject(object: any): ISepiaFilter
 	};
+    Technicolor: {
+		new(options?: any): ITechnicolorFilter;
+		/**
+		 * Returns filter instance from an object representation
+		 * @param object Object to create an instance from
+		 */
+		fromObject(object: any): ITechnicolorFilter
+	};  
 	Tint: {
 		new(options?: {
 			/**
@@ -5114,6 +5138,14 @@ interface IAllFilters {
 		 * @param object Object to create an instance from
 		 */
 		fromObject(object: any): ITintFilter
+	};
+    Vintage: {
+		new(options?: any): IVintageFilter;
+		/**
+		 * Returns filter instance from an object representation
+		 * @param object Object to create an instance from
+		 */
+		fromObject(object: any): IVintageFilter
 	};
 }
 interface IBaseFilter {
